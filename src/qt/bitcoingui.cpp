@@ -106,10 +106,11 @@ BitcoinGUI::BitcoinGUI(const NetworkStyle *networkStyle, QWidget *parent) :
     miningOffAction(0),
     miningOnAction(0)
 {
+    /*
     setFixedSize(1100, 614);
     GUIUtil::restoreWindowGeometry("nWindow", QSize(1100, 614), this);
 	qApp->setStyleSheet("QMainWindow { background-image:url(:icons/hg);border:none;font-family:'Open Sans,sans-serif'; }");
-
+    */
     QString windowTitle = tr("EuropeCoin Core") + " - ";
 #ifdef ENABLE_WALLET
     /* if compiled with wallet support, -disablewallet can still disable the wallet */
